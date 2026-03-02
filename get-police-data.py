@@ -10,7 +10,7 @@ from urllib.parse import urlencode
 from urllib.request import urlopen
 
 API_URL = "https://data.cambridgema.gov/resource/3gki-wyrb.json"
-PAGE_SIZE = 1000
+PAGE_SIZE = 2000
 
 
 def fetch_all_records(url: str, page_size: int = PAGE_SIZE) -> list[dict]:

@@ -15,7 +15,7 @@ from urllib.parse import urlencode
 from urllib.request import urlopen
 
 BASE_URL = "https://data.cambridgema.gov/api/catalog/v1"
-PAGE_SIZE = 1000
+PAGE_SIZE = 2000
 
 
 def fetch_non_archived_datasets(limit: int = PAGE_SIZE) -> list[dict]:
